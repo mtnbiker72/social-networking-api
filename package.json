@@ -1,0 +1,20 @@
+{
+  "name": "social_networking_api",
+  "version": "1.0.0",
+  "description": "An API for a social network web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtnbiker72/social-networking-api.git"
+  },
+  "author": "Heather Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtnbiker72/social-networking-api/issues"
+  },
+  "homepage": "https://github.com/mtnbiker72/social-networking-api#readme"
+}
