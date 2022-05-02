@@ -1,12 +1,12 @@
 const { Schema, model } = require('mongoose');
 // Require moment to convert time
 const moment = require('moment');
-// Schema to create User model
+// Schema to create Reaction model
 const reactionSchema = new Schema(
     {
         reactionId: {
-            type: Types.ObjectId,
-            default: new Types.ObjectId()
+            type: Schema.Types.ObjectId,
+            default: () => new Types.ObjectId()
         },
         reactionBody: {
             type: String,
@@ -29,5 +29,3 @@ const reactionSchema = new Schema(
         },
     }
 );
-
-module.exports = Reactions

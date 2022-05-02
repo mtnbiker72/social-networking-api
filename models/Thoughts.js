@@ -1,8 +1,8 @@
-const { Schema, Types } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 // Require moment to convert time
 const moment = require('moment');
 // Require reaction schema
-const reactionSchema = require('./Reaction');
+const reactionSchema = require('./Reactions');
 
 const thoughtSchema = new Schema(
     {
