@@ -11,7 +11,7 @@ https://github.com/mtnbiker72/social-networking-api
 
 The video that explains how to use the application -
 
-TBD
+https://drive.google.com/file/d/1BnFaRgNnoZVCemIJNQGeoF0S7FnsSa-X/view
 
 ## Required Modules:
 * express
