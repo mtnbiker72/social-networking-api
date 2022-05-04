@@ -1,17 +1,17 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 // Require moment to convert time
 const moment = require('moment');
-// Schema to create Reaction model
+// Create reaction schema 
 const reactionSchema = new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: () => new Types.ObjectId()
+            default: ()=> new Types.ObjectId()
         },
         reactionBody: {
             type: String,
             required: true,
-            minlength: 280
+            maxlength: 280
         },
         uername: [{
             type: String,
@@ -29,3 +29,5 @@ const reactionSchema = new Schema(
         },
     }
 );
+
+module.exports = reactionSchema;
